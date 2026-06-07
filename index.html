@@ -1,308 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manasa Udathu | Software Engineer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manasa Udathu | Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
+  <!-- ═══════════════════ NAV ═══════════════════ -->
+  <nav>
     <div class="container nav-container">
-        <h2>Manasa Udathu</h2>
-
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#interests">Interests</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#achievements">Achievements</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
+      <a href="#" class="nav-logo">Manasa<span>.</span></a>
+      <div>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
-</nav>
+  </nav>
 
-<section class="hero">
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero">
     <div class="container">
 
-        <h1>Software Engineer @ ServiceNow</h1>
+      <div class="hero-eyebrow">Software Engineer</div>
 
-        <p class="subtitle">
-            Software Engineer focused on Backend Systems,
-            Distributed Systems, AI-Powered Workflows and
-            building scalable enterprise software.
+      <h1>Manasa <span class="highlight">Udathu</span></h1>
+
+      <p class="subtitle">
+        Building scalable backend systems, distributed architectures,
+        and AI-powered workflows at enterprise scale.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <h3>4+</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat">
+          <h3>10M+</h3>
+          <p>Records Optimized</p>
+        </div>
+        <div class="stat">
+          <h3>5M+</h3>
+          <p>Assets Processed</p>
+        </div>
+        <div class="stat">
+          <h3>70%</h3>
+          <p>Performance Improvement</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a href="resume.pdf" class="btn primary" target="_blank">↓ Resume</a>
+        <a href="https://github.com/UdathuManasa" class="btn secondary" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/u-manasa-4b78691a9" class="btn secondary" target="_blank">LinkedIn</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ ABOUT ═══════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>
+            Software Engineer with 4+ years of experience across ServiceNow,
+            Juspay and Cognizant. I work at the intersection of backend
+            engineering, distributed systems, and AI — building products that
+            operate at massive scale.
+          </p>
+          <p>
+            I care deeply about performance, observability, and system design.
+            Outside of work, I compete in coding competitions and explore
+            reinforcement learning for AI reasoning.
+          </p>
+        </div>
+        <div>
+          <p style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:16px;font-weight:500;">Current Interests</p>
+          <div class="interests-list">
+            <span class="interest-tag">Backend Engineering</span>
+            <span class="interest-tag">Distributed Systems</span>
+            <span class="interest-tag">Platform Engineering</span>
+            <span class="interest-tag">AI-Powered Workflows</span>
+            <span class="interest-tag">Scalability</span>
+            <span class="interest-tag">Performance Optimization</span>
+            <span class="interest-tag">System Design</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ EXPERIENCE ═══════════════════ -->
+  <section class="section" id="experience">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>Experience</h2>
+      </div>
+
+      <!-- ServiceNow -->
+      <div class="card reveal">
+        <div class="card-top">
+          <div>
+            <h3>ServiceNow</h3>
+            <h4>Software Engineer</h4>
+          </div>
+          <span class="card-date">Apr 2024 — Present</span>
+        </div>
+        <ul>
+          <li>Engineered Asset Assist GenAI workflows operating across 5M+ asset records.</li>
+          <li>Re-architected Oracle evaluation pipelines processing 10M+ records.</li>
+          <li>Reduced execution time by 70% through backend optimizations.</li>
+          <li>Improved Software Asset Workspace latency from 20 seconds to 5 seconds.</li>
+          <li>Enhanced ML Normalization reliability using fallback and observability pipelines.</li>
+        </ul>
+      </div>
+
+      <!-- Juspay -->
+      <div class="card reveal">
+        <div class="card-top">
+          <div>
+            <h3>Juspay</h3>
+            <h4>Software Development Engineer</h4>
+          </div>
+          <span class="card-date">Aug 2022 — Feb 2024</span>
+        </div>
+        <ul>
+          <li>Built merchant dashboards using React and ReScript.</li>
+          <li>Developed payment workflows and merchant-facing operational tools.</li>
+          <li>Improved testing efficiency by 10x using PureScript tooling.</li>
+          <li>Eliminated 1700+ technical debt warnings through Python automation.</li>
+          <li>Contributed to cross-border and hybrid pricing systems.</li>
+        </ul>
+      </div>
+
+      <!-- Cognizant -->
+      <div class="card reveal">
+        <div class="card-top">
+          <div>
+            <h3>Cognizant</h3>
+            <h4>Program Analyst</h4>
+          </div>
+          <span class="card-date">Jul 2021 — Aug 2022</span>
+        </div>
+        <ul>
+          <li>Resolved 50+ Veracode security violations.</li>
+          <li>Fixed accessibility issues using WCAG standards.</li>
+          <li>Optimized database performance through indexing and query tuning.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PROJECTS ═══════════════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2>Featured Project</h2>
+      </div>
+
+      <div class="card card-featured reveal">
+        <div class="card-top">
+          <div>
+            <h3>Debug-Env: Distributed Systems RL Sandbox</h3>
+            <h4>OpenEnv-compatible RL environment for LLM reasoning</h4>
+          </div>
+          <span class="card-date">🏆 Top 2.5% — 32,000+ teams</span>
+        </div>
+
+        <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.75;margin-top:12px;">
+          An OpenEnv-compatible simulator designed to evaluate LLM reasoning
+          capabilities for Root Cause Analysis (RCA) in distributed systems
+          environments — with custom reward-loop mechanisms and reproducible
+          failure simulations.
         </p>
 
-        <div class="stats">
-
-            <div class="stat">
-                <h3>4+</h3>
-                <p>Years Experience</p>
-            </div>
-
-            <div class="stat">
-                <h3>10M+</h3>
-                <p>Records Optimized</p>
-            </div>
-
-            <div class="stat">
-                <h3>5M+</h3>
-                <p>Assets Processed</p>
-            </div>
-
-            <div class="stat">
-                <h3>70%</h3>
-                <p>Performance Improvement</p>
-            </div>
-
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Reinforcement Learning</span>
+          <span class="tag">LLM Evaluation</span>
+          <span class="tag">Distributed Systems</span>
         </div>
 
-        <div class="buttons">
-            <a class="btn primary" href="resume.pdf" target="_blank">
-                Resume
-            </a>
-
-            <a class="btn secondary"
-               href="https://github.com/UdathuManasa"
-               target="_blank">
-                GitHub
-            </a>
-
-            <a class="btn secondary"
-               href="https://www.linkedin.com/in/u-manasa-4b78691a9"
-               target="_blank">
-                LinkedIn
-            </a>
-        </div>
+        <ul>
+          <li>Built using Python, FastAPI and Docker.</li>
+          <li>Designed custom feedback and reward-loop mechanisms.</li>
+          <li>Created reproducible distributed failure simulations.</li>
+          <li>Top 2.5% among 32,000+ teams in Meta × Scaler OpenEnv Hackathon.</li>
+        </ul>
+      </div>
 
     </div>
-</section>
+  </section>
 
-<section id="about" class="section">
+  <!-- ═══════════════════ ACHIEVEMENTS ═══════════════════ -->
+  <section class="section" id="achievements">
     <div class="container">
 
-        <h2>About Me</h2>
-
-        <div class="card">
-            <p>
-                Software Engineer with 4+ years of experience across
-                ServiceNow, Juspay and Cognizant. Experienced in backend
-                development, distributed systems, AI-powered workflows,
-                performance optimization, database scalability and
-                enterprise software products.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<section id="interests" class="section">
-    <div class="container">
-
-        <h2>Current Interests</h2>
-
-        <div class="card">
-
-            <p>
-                Interested in Backend Engineering, Distributed Systems,
-                Platform Engineering and AI-powered workflows, with a strong
-                focus on scalability, performance and system design.
-            </p>
-
-            <br>
-
-            <div class="skills">
-                <span>Backend Engineering</span>
-                <span>Distributed Systems</span>
-                <span>Platform Engineering</span>
-                <span>AI-Powered Workflows</span>
-                <span>Scalability</span>
-                <span>Performance Optimization</span>
-                <span>System Design</span>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<section id="experience" class="section">
-    <div class="container">
-
-        <h2>Experience</h2>
-
-        <div class="card">
-            <h3>ServiceNow</h3>
-            <h4>Software Engineer | Apr 2024 - Present</h4>
-
-            <ul>
-                <li>Engineered Asset Assist GenAI workflows operating across 5M+ asset records.</li>
-                <li>Re-architected Oracle evaluation pipelines processing 10M+ records.</li>
-                <li>Reduced execution time by 70% through backend optimizations.</li>
-                <li>Improved Software Asset Workspace latency from 20 seconds to 5 seconds.</li>
-                <li>Enhanced ML Normalization reliability using fallback and observability pipelines.</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3>Juspay</h3>
-            <h4>Software Development Engineer | Aug 2022 - Feb 2024</h4>
-
-            <ul>
-                <li>Built merchant dashboards using React and ReScript.</li>
-                <li>Developed payment workflows and merchant-facing operational tools.</li>
-                <li>Improved testing efficiency by 10x using PureScript tooling.</li>
-                <li>Eliminated 1700+ technical debt warnings through Python automation.</li>
-                <li>Contributed to cross-border and hybrid pricing systems.</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3>Cognizant</h3>
-            <h4>Program Analyst | Jul 2021 - Aug 2022</h4>
-
-            <ul>
-                <li>Resolved 50+ Veracode security violations.</li>
-                <li>Fixed accessibility issues using WCAG standards.</li>
-                <li>Optimized database performance through indexing and query tuning.</li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <div class="container">
-
-        <h2>Featured Project</h2>
-
-        <div class="card">
-
-            <h3>Debug-Env: Distributed Systems RL Sandbox</h3>
-
-            <p>
-                OpenEnv-compatible simulator designed to evaluate
-                LLM reasoning capabilities for Root Cause Analysis (RCA)
-                in distributed systems environments.
-            </p>
-
-            <br>
-
-            <ul>
-                <li>Built using Python, FastAPI and Docker.</li>
-                <li>Designed custom feedback and reward-loop mechanisms.</li>
-                <li>Created reproducible distributed failure simulations.</li>
-                <li>Top 2.5% among 32,000+ teams in Meta x Scaler OpenEnv Hackathon.</li>
-            </ul>
-
-        </div>
-
-    </div>
-</section>
-
-<section id="achievements" class="section">
-    <div class="container">
-
+      <div class="section-header">
+        <span class="section-num">04</span>
         <h2>Achievements</h2>
+      </div>
 
-        <div class="card">
+      <div class="achievements-grid reveal">
 
-            <ul>
-                <li>🏆 Top 2.5% (Top 800) in Meta x Scaler OpenEnv Hackathon among 32,000+ teams.</li>
-                <li>🏆 Rank 99 in CodeKaze 2024 among 150,000+ participants.</li>
-                <li>🏆 National Rank 5 in CodeKaze 2022.</li>
-                <li>🎓 Best Student of the Year 2021 among 4,000+ students.</li>
-                <li>📚 AIR 6000 in GATE CSE.</li>
-                <li>💻 Google Hash Code Participant.</li>
-                <li>💻 Google Code Jam I/O for Women Participant.</li>
-            </ul>
-
+        <div class="achievement-item">
+          <div class="achievement-icon">🏆</div>
+          <p><strong>Top 2.5% — Meta × Scaler OpenEnv Hackathon</strong>Top 800 among 32,000+ global teams (solo participant).</p>
         </div>
 
-    </div>
-</section>
+        <div class="achievement-item">
+          <div class="achievement-icon">🏆</div>
+          <p><strong>Rank 99 — CodeKaze 2024</strong>Among 150,000+ participants nationwide.</p>
+        </div>
 
-<section id="education" class="section">
+        <div class="achievement-item">
+          <div class="achievement-icon">🏆</div>
+          <p><strong>National Rank 5 — CodeKaze 2022</strong>Top competitive programming result nationally.</p>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">🎓</div>
+          <p><strong>Best Student of the Year 2021</strong>Awarded among 4,000+ students at GEC.</p>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">📚</div>
+          <p><strong>AIR 6000 — GATE CSE</strong>All India Rank in Graduate Aptitude Test in Engineering.</p>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">💻</div>
+          <p><strong>Google Hash Code &amp; Code Jam I/O</strong>Participant in Google's global coding competitions.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ EDUCATION ═══════════════════ -->
+  <section class="section" id="education">
     <div class="container">
 
+      <div class="section-header">
+        <span class="section-num">05</span>
         <h2>Education</h2>
+      </div>
 
-        <div class="card">
+      <div class="card reveal">
+        <div class="edu-card">
+          <div class="edu-badge">GEC</div>
+          <div class="edu-info">
             <h3>Gudlavalleru Engineering College</h3>
-
-            <p>B.Tech in Computer Science & Engineering</p>
-
-            <p>CGPA: 9.4 / 10</p>
-
-            <p>Best Student of the Year (2021)</p>
+            <p>B.Tech in Computer Science &amp; Engineering</p>
+            <div class="edu-meta">
+              <span class="edu-pill cgpa">CGPA: 9.4 / 10</span>
+              <span class="edu-pill award">🎓 Best Student of the Year 2021</span>
+            </div>
+          </div>
         </div>
+      </div>
 
     </div>
-</section>
+  </section>
 
-<section id="skills" class="section">
+  <!-- ═══════════════════ SKILLS ═══════════════════ -->
+  <section class="section" id="skills">
     <div class="container">
 
+      <div class="section-header">
+        <span class="section-num">06</span>
         <h2>Skills</h2>
+      </div>
 
-        <div class="skills">
-            <span>Java</span>
-            <span>Python</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>FastAPI</span>
-            <span>Docker</span>
-            <span>SQL</span>
-            <span>Git</span>
-            <span>REST APIs</span>
-            <span>Distributed Systems</span>
-            <span>System Design</span>
-            <span>Performance Optimization</span>
-            <span>Observability</span>
-            <span>AI Workflows</span>
-        </div>
+      <div class="skills reveal">
+        <span>Java</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>FastAPI</span>
+        <span>Docker</span>
+        <span>SQL</span>
+        <span>Git</span>
+        <span>REST APIs</span>
+        <span>Distributed Systems</span>
+        <span>System Design</span>
+        <span>Performance Optimization</span>
+        <span>Observability</span>
+        <span>AI Workflows</span>
+      </div>
 
     </div>
-</section>
+  </section>
 
-<section id="contact" class="section">
+  <!-- ═══════════════════ CONTACT ═══════════════════ -->
+  <section class="section" id="contact">
     <div class="container">
 
+      <div class="section-header">
+        <span class="section-num">07</span>
         <h2>Contact</h2>
+      </div>
 
-        <div class="card">
+      <div class="contact-grid reveal">
 
-            <p><strong>Email:</strong> manasaudathu@gmail.com</p>
+        <a href="mailto:manasaudathu@gmail.com" class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">manasaudathu@gmail.com</span>
+          </div>
+        </a>
 
-            <br>
+        <a href="https://github.com/UdathuManasa" class="contact-item" target="_blank">
+          <div class="contact-icon">⌥</div>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/UdathuManasa</span>
+          </div>
+        </a>
 
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/UdathuManasa" target="_blank">
-                    github.com/UdathuManasa
-                </a>
-            </p>
+        <a href="https://www.linkedin.com/in/u-manasa-4b78691a9" class="contact-item" target="_blank">
+          <div class="contact-icon">in</div>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">View Profile →</span>
+          </div>
+        </a>
 
-            <br>
-
-            <p>
-                <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/u-manasa-4b78691a9" target="_blank">
-                    View Profile
-                </a>
-            </p>
-
-        </div>
+      </div>
 
     </div>
-</section>
+  </section>
 
-<footer>
-    © 2026 Manasa Udathu | Software Engineer
-</footer>
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer>
+    <p>© 2026 <span>Manasa Udathu</span> · Built with intention.</p>
+  </footer>
+
+  <!-- ═══════════════════ JS (always last, before </body>) ═══════════════════ -->
+  <script src="scroll-reveal.js"></script>
 
 </body>
 </html>
