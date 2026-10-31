@@ -784,3 +784,72 @@ footer span { color: var(--accent); opacity: 0.8; }
   .btn { width: 100%; justify-content: center; }
   .hero h1 { font-size: 2.1rem; }
 }
+
+/* ═══════════ COLLAPSIBLE EXPERIENCE ═══════════ */
+
+.experience-card {
+  cursor: pointer;
+}
+
+.experience-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+
+.experience-summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-summary::marker {
+  content: "";
+}
+
+.experience-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.expand-icon {
+  font-size: 13px;
+  transition: transform 0.3s ease;
+}
+
+.experience-card[open] .expand-icon {
+  transform: rotate(180deg);
+}
+
+.experience-content {
+  padding-top: 18px;
+}
+
+.experience-content ul {
+  margin-bottom: 0;
+}
+
+.experience-content li {
+  margin-bottom: 10px;
+}
+
+.experience-summary h3,
+.experience-summary h4 {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .experience-summary {
+    align-items: flex-start;
+  }
+
+  .experience-meta {
+    gap: 8px;
+  }
+
+  .experience-meta .card-date {
+    font-size: 11px;
+  }
+}
