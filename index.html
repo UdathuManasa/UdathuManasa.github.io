@@ -95,71 +95,94 @@
     </div>
   </section>
 
-  <!-- ═══════════ EXPERIENCE ═══════════ -->
-  <section class="section" id="experience">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-num">02</span>
-        <h2>Experience</h2>
-      </div>
+<!-- ═══════════ EXPERIENCE ═══════════ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Experience</h2>
+    </div>
 
-      <div class="card reveal">
-        <div class="card-top">
-          <div>
-            <h3>ServiceNow</h3>
-            <h4>Software Engineer</h4>
-          </div>
-          <span class="card-date">Apr 2024 — July 2026</span>
+    <!-- ServiceNow -->
+    <details class="card reveal experience-card">
+      <summary class="card-top experience-summary">
+        <div>
+          <h3>ServiceNow</h3>
+          <h4>Software Engineer</h4>
         </div>
+        <div class="experience-meta">
+          <span class="card-date">Apr 2024 — July 2026</span>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+      </summary>
+
+      <div class="experience-content">
         <ul>
-          <li>Engineered the Asset Assist (GenAI) backend pipeline — integrating AI search workflows, implementing scheduled sampling jobs for metadata collection, 
-            optimizing token consumption, and continuously monitoring query-answer quality to improve prompt relevance and response accuracy.</li>
+          <li>Engineered the Asset Assist (GenAI) backend pipeline — integrating AI search workflows, implementing scheduled sampling jobs for metadata collection, optimizing token consumption, and continuously monitoring query-answer quality to improve prompt relevance and response accuracy.</li>
+
           <li>Re-architected Oracle evaluation pipelines for 5M–10M record datasets, eliminating expensive DB view joins to reduce execution time by 70% while maintaining functional integrity.</li>
+
           <li>Resolved critical performance bottlenecks in Software Asset Workspace by rewriting SQL queries and optimizing UI data loading logic, reducing response latency from 20s to 5s across 5M+ records.</li>
+
           <li>Strengthened ML Normalization reliability by implementing model-version fallback strategies, refactoring scheduled jobs, ensuring reprocessing of outdated models, and adding observability pipelines with robust error logging.</li>
+
           <li>Improved SAM reconciliation accuracy, entitlement import reliability, and currency localization correctness across License Metric, Product, and Publisher views.</li>
         </ul>
-        <div style="margin-top:18px;">
-    <a href="https://github.com/UdathuManasa/debug-env" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-      <i class="fab fa-github"></i> View on GitHub
-    </a>
-  </div>
       </div>
+    </details>
 
-      <div class="card reveal">
-        <div class="card-top">
-          <div>
-            <h3>Juspay</h3>
-            <h4>Software Development Engineer</h4>
-          </div>
-          <span class="card-date">Aug 2022 — Feb 2024</span>
+    <!-- Juspay -->
+    <details class="card reveal experience-card">
+      <summary class="card-top experience-summary">
+        <div>
+          <h3>Juspay</h3>
+          <h4>Software Development Engineer</h4>
         </div>
+        <div class="experience-meta">
+          <span class="card-date">Aug 2022 — Feb 2024</span>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+      </summary>
+
+      <div class="experience-content">
         <ul>
           <li>Built and owned ReScript and React merchant dashboards — implementing file upload/download, role-based action controls, dynamic merchant branding, and resolving 20+ production UI bugs across filters, dropdowns, and card components.</li>
-<li>Integrated web payment flows in redirection and iframe modes, built Android WebView for payment pages, and developed a QR code microapp with local test server setup.</li>
-<li>Contributed to Cross-Border, Hybrid Pricing, and Cross-Country features — designing API flow diagrams, writing Cucumber test cases, creating merchant and issuer profiles across cert and QA environments.</li>
-<li>Improved internal testing efficiency by 10x by rewriting dev tooling in PureScript, reducing QA overhead by 50%.</li>
-<li>Eliminated 1,700+ code warnings from a 2,100-instance codebase using Python automation, significantly improving maintainability.</li>
+
+          <li>Integrated web payment flows in redirection and iframe modes, built Android WebView for payment pages, and developed a QR code microapp with local test server setup.</li>
+
+          <li>Contributed to Cross-Border, Hybrid Pricing, and Cross-Country features — designing API flow diagrams, writing Cucumber test cases, creating merchant and issuer profiles across cert and QA environments.</li>
+
+          <li>Improved internal testing efficiency by 10x by rewriting dev tooling in PureScript, reducing QA overhead by 50%.</li>
+
+          <li>Eliminated 1,700+ code warnings from a 2,100-instance codebase using Python automation, significantly improving maintainability.</li>
         </ul>
       </div>
+    </details>
 
-      <div class="card reveal">
-        <div class="card-top">
-          <div>
-            <h3>Cognizant</h3>
-            <h4>Program Analyst</h4>
-          </div>
-          <span class="card-date">Jul 2021 — Aug 2022</span>
+    <!-- Cognizant -->
+    <details class="card reveal experience-card">
+      <summary class="card-top experience-summary">
+        <div>
+          <h3>Cognizant</h3>
+          <h4>Program Analyst</h4>
         </div>
+        <div class="experience-meta">
+          <span class="card-date">Jul 2021 — Aug 2022</span>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+      </summary>
+
+      <div class="experience-content">
         <ul>
           <li>Resolved 50+ Veracode security violations.</li>
           <li>Fixed accessibility issues using WCAG standards.</li>
           <li>Optimized database performance through indexing and query tuning.</li>
         </ul>
       </div>
+    </details>
 
-    </div>
-  </section>
+  </div>
+</section>
 
   <!-- ═══════════ PROJECTS ═══════════ -->
   <section class="section" id="projects">
